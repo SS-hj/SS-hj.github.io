@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://SS-hj.github.io/sitemap.xml
