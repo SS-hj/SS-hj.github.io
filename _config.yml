@@ -76,7 +76,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/AI.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "AI가 되어가는 Human"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/AI.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "분석과 개발 둘 다 잘해내는 Data Scientist를 꿈꾸는 학생"
   location         : "Korea"
   email            : "leehajeong22@gmail.com"
