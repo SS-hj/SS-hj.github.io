@@ -4,7 +4,7 @@ title: "Github pages 만들기 (Minimal Mistakes with utterances)"
 category: Github
 
 tag: 
- - Github pagesa
+ - Github pages
  - utterances
  - Minimal Mistakes
 
