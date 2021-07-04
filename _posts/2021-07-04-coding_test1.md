@@ -17,7 +17,7 @@ header:
 
 본 내용은 "이것이 취업을 위한 코딩 테스트다 with 파이썬" 책의 부록 A 부분과 순천향대학교 정엽섭 교수님의 "파이썬" 과목 수강시 정리했던 내용을 기반으로 포스팅하였습니다.
 
-이 포스팅은 이전에 파이썬을 배운 경험이 있지만, 정확한 문법들을 잊어 주요 문법들을 다시 공부하고 싶으신 분들에게 적합한 내용입니다.
+이 포스팅은 이전에 파이썬을 배운 경험이 있지만, 구체적인 문법사항들을 다시 공부하고 싶으신 분들에게 적합한 내용입니다.
 
 <br/>
 
@@ -31,13 +31,13 @@ header:
 
   e 다음에 오는 수는 10의 지수부를 의미
 
-  <font style="color:#6699cc">숫자 e <sup> 지수 </sup> == 숫자 x 10 <sup> 지수 </sup></font>
+  <font style="color:#6666ff">숫자 e <sup> 지수 </sup> == 숫자 x 10 <sup> 지수 </sup></font>
 
   e.g.) 1e9 == 10<sup>9</sup> == 1,000,000,000
 
 - 정확한 소수점 값을 비교하는 작업이 필요할 때 round() 함수 사용
 
-  <font style="color:#cc6666">round(실수형 데이터, 반올림하고자 하는 위치-1)</font>
+  <font style="color:#cc3333">round(실수형 데이터, 반올림하고자 하는 위치-1)</font>
 
   e.g.) round(123.456,2) == 123.46
 
@@ -51,7 +51,7 @@ header:
 
   a%b: a를 b로 나눈 나머지
   
-- **<mark style='background-color: #999933'>숫자 관련 유용한 함수 모음</mark>**
+- **<mark style='background-color: #ffffcc'>숫자 관련 유용한 함수 모음</mark>**
 
   ```python
   abs(숫자)  #숫자를  절댓값으로  반환
@@ -81,17 +81,17 @@ header:
 
   a=[]
 
-- <font style="color:#6699cc">리스트 인덱싱</font>
+- <font style="color:#6666ff">리스트 인덱싱</font>
 
   변수/리스트[n]: 인덱스 n에 있는 원소를 가져옴.  (이때 n은 정수 또는 변수이다.)
 
   ※ 이때 n에 음의 정수를 넣으면 원소를 거꾸로 탐색한다. 즉, 인덱스에서 -1은 마지막 원소를 의미한다.
 
-- <font style="color:#6699cc">리스트 슬라이싱</font>
+- <font style="color:#6666ff">리스트 슬라이싱</font>
 
   대괄호 안에 콜로(:)을 넣어 연속적인 원소들을 한번에 가져올 수 있다.
 
-  [a:b] 이면 a부터 **b전 자리까지** 있는 원소들을 리스트로 가져온다.
+  [a:b] 이면 a부터 b전 자리까지 있는 원소들을 리스트로 가져온다.
 
   e.g.)
 
@@ -100,7 +100,7 @@ header:
   print(a[1:4]) # 결과는 [2,3,4]
   ```
 
-- <font style="color:#cc6666">리스트 연산 (문자열과 같은 형식임)</font>
+- <font style="color:#cc3333">리스트 연산 (문자열과 같은 형식임)</font>
 
   1. 리스트+리스트  #리스트의 나열  
 
@@ -110,7 +110,7 @@ header:
 
   3. 리스트*n           #리스트를 n번 나열
 
-- <font style="color:#6699cc">**리스트 컴프리헨션**(comprehension)</font>
+- <font style="color:#6666ff">리스트 컴프리헨션(comprehension)</font>
 
   대괄호 안에 조건문과 반복문을 넣어 리스트를 초기화하는 것이다.
 
@@ -129,7 +129,7 @@ header:
 
   따라서 짧고 간결한 리스트 컴프리핸션을 이용하는 것이 더 효율적인 코드임을 확인할 수 있다.
 
-- **<mark style='background-color: #999933'>리스트 관련 유용한 함수 모음</mark>** (이때 w는 리스트 변수를 의미)
+- **<mark style='background-color: #ffffcc'>리스트 관련 유용한 함수 모음</mark>** (이때 w는 리스트 변수를 의미)
 
   ```python
   w.append(~)    #리스트 맨 오른쪽에 ~를 추가
@@ -168,7 +168,7 @@ header:
   "\000"  #널문자
   ```
 
-- <font style="color:#cc6666">문자열 연산</font> (리스트와 같은 형식임)
+- <font style="color:#cc3333">문자열 연산</font> (리스트와 같은 형식임)
 
   1. 문자열+문자열  #문자열의 나열  ※문자열 끼리만 더하기 가능
   2. 문자열-문자열   #오류!!
@@ -195,7 +195,7 @@ header:
 
 - 튜플이 1개의 요소만을 가질 때는 요소 뒤에 콤마(,)를 반드시 붙여야 하고, 괄호()는 생략해도 무방하다.
 
-- <font style="color:#cc6666">튜플도 순서가 있다. (인덱싱과 슬라이싱 가능)</font>
+- <font style="color:#cc3333">튜플도 순서가 있다. (인덱싱과 슬라이싱 가능)</font>
 
 ```python
 target=1,  #튜플 자료형으로 (1,)과 동일
@@ -206,13 +206,13 @@ target=(1) #숫자 자료형으로 1과 동일
 
 ### 5. 사전(DIctionary) 자료형
 
-<font style="color:#6699cc">key와 value의 쌍을 데이터로 가지는 자료형.</font> 딕셔너리는 mutable로, 값을 변경할 수 있다.
+<font style="color:#6666ff">key와 value의 쌍을 데이터로 가지는 자료형.</font> 딕셔너리는 mutable로, 값을 변경할 수 있다.
 
-- <font style="color:#6699cc">key</font>: 하나의 변수. 여러 자료형들이 한번에 들어올 수 있다. 동일한 key 값들이 있을 경우, 마지막의 key에 해당되는 value만 유의미하다. 
+- <font style="color:#6666ff">key</font>: 하나의 변수. 여러 자료형들이 한번에 들어올 수 있다. 동일한 key 값들이 있을 경우, 마지막의 key에 해당되는 value만 유의미하다. 
 
-  ※ 여기에는 <font style="color:#6699cc">immutable한 자료형들만 들어 갈 수 있다.</font> 이때 immutable한 자료형이란, 수, 문자열, 튜플과 같은 자료형을 의미한다.
+  ※ 여기에는 <font style="color:#6666ff">immutable한 자료형들만 들어 갈 수 있다.</font> 이때 immutable한 자료형이란, 수, 문자열, 튜플과 같은 자료형을 의미한다.
 
-- <font style="color:#6699cc">value</font>: key에 대응되는 값. (또 다른 딕셔너리가 value로 들어올 수 있다.)
+- <font style="color:#6666ff">value</font>: key에 대응되는 값. (또 다른 딕셔너리가 value로 들어올 수 있다.)
 
 이러한 key-value 쌍으로 구성된 dictionary 자료형을 처리하는 것은 리스트 자료형보다 훨씬 빠르게 동작한다.
 
@@ -236,16 +236,16 @@ dict.clear()  #dict값들을 다 삭제. 즉, dict={}이 됨.
 
 - 표기법: set()
 
-- <font style="color:#cc6666">중복×</font> (동일한 값 넣을 수 없음)
+- <font style="color:#cc3333">중복×</font> (동일한 값 넣을 수 없음)
 
-- <font style="color:#cc6666">순서x</font>  (인덱싱 사용하면 오류남)
+- <font style="color:#cc3333">순서x</font>  (인덱싱 사용하면 오류남)
 
 ```python
 set([1,2,3]) #{1,2,3}과 동일
 set("hello") #set(["h","e","l","l","o"])와 동일. {’o’,’l’,’e’,’h’}와도 동일
 ```
 
-- **<font style="color:#6699cc">집합의 연산</font>**
+- **<font style="color:#6666ff">집합의 연산</font>**
 
   1. 합집합
 
@@ -285,9 +285,9 @@ set("hello") #set(["h","e","l","l","o"])와 동일. {’o’,’l’,’e’,’
 
 ++추가 내용)
 
-<font style="color:#cc6666">언더바(_)</font>
+<font style="color:#cc3333">언더바(_)</font>
 
-파이썬에서 반복문 사용시, _는 어떤 <font style="color:#cc6666">특정값을 무시하기 위한 용도</font>로 사용되기도한다. 값이 필요하지 않거나 사용되지 않는 값을 _에 할당하기만 하면된다.
+파이썬에서 반복문 사용시, _는 어떤 <font style="color:#cc3333">특정값을 무시하기 위한 용도</font>로 사용되기도한다. 값이 필요하지 않거나 사용되지 않는 값을 _에 할당하기만 하면된다.
 
 e.g.)
 
