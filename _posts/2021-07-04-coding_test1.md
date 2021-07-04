@@ -110,7 +110,7 @@ header:
 
   3. 리스트*n           #리스트를 n번 나열
 
-- <font style="color:#6699cc">**리스트 컴프리헨션**(comprehension)</font>
+- <font style="color:#6699cc">리스트 컴프리헨션(comprehension)</font>
 
   대괄호 안에 조건문과 반복문을 넣어 리스트를 초기화하는 것이다.
 
