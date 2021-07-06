@@ -46,11 +46,11 @@ header:
 
   (※ 나누기를 할 때에는 소수점까지 써야됨)
 
-  > a**b: a의 b제곱
-  >
-  > a//b: a를 b로 나눈 몫
-  >
-  > a%b: a를 b로 나눈 나머지
+  a**b: a의 b제곱
+  
+  a//b: a를 b로 나눈 몫
+  
+  a%b: a를 b로 나눈 나머지
   
 - **<mark style='background-color: #ffffcc'>숫자 관련 유용한 함수 모음</mark>**
 
@@ -171,9 +171,9 @@ header:
 
 - <font style="color:#cc3333">문자열 연산</font> (리스트와 같은 형식임)
 
-  > 1. 문자열+문자열  #문자열의 나열  ※문자열 끼리만 더하기 가능
-  > 2. 문자열-문자열   #오류!!
-  > 3. 문자열*n            #문자열을 n번 나열
+  1. 문자열+문자열  #문자열의 나열  ※문자열 끼리만 더하기 가능
+  2. 문자열-문자열   #오류!!
+  3. 문자열*n            #문자열을 n번 나열
   
   ```python
   a="Hello"
@@ -248,19 +248,19 @@ set("hello") #set(["h","e","l","l","o"])와 동일. {’o’,’l’,’e’,’
 
 - **<font style="color:#6666ff">집합의 연산</font>**
 
-  > 1. 합집합
-  >
-  >    AㅣB == A.nuion(B) == B.union(A)
-  >
-  > 2. 교집합
-  >
-  >    A&B == A.intersection(B) == B.intersection(A)
-  >
-  > 3. 차집합
-  >
-  >    A-B == A.difference(B)
-  >
-  >    B-A == B.difference(A)
+  1. 합집합
+  
+     AㅣB == A.nuion(B) == B.union(A)
+  
+  2. 교집합
+  
+     A&B == A.intersection(B) == B.intersection(A)
+  
+  3. 차집합
+  
+     A-B == A.difference(B)
+  
+     B-A == B.difference(A)
   
   ```python
   a=set([1,2,3,4,5])
