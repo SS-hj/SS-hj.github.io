@@ -174,7 +174,6 @@ header:
   > 1. 문자열+문자열  #문자열의 나열  ※문자열 끼리만 더하기 가능
   > 2. 문자열-문자열   #오류!!
   > 3. 문자열*n            #문자열을 n번 나열
-  >
   
   ```python
   a="Hello"
@@ -251,7 +250,7 @@ set("hello") #set(["h","e","l","l","o"])와 동일. {’o’,’l’,’e’,’
 
   > 1. 합집합
   >
-  >    A|B == A.nuion(B) == B.union(A)
+  >    AㅣB == A.nuion(B) == B.union(A)
   >
   > 2. 교집합
   >
@@ -262,8 +261,7 @@ set("hello") #set(["h","e","l","l","o"])와 동일. {’o’,’l’,’e’,’
   >    A-B == A.difference(B)
   >
   >    B-A == B.difference(A)
-  >
-
+  
   ```python
   a=set([1,2,3,4,5])
   b=set([3,4,5,6,7])
@@ -271,7 +269,7 @@ set("hello") #set(["h","e","l","l","o"])와 동일. {’o’,’l’,’e’,’
   print(a&b) #{3,4,5}
   print(a-b) #{1,2}
   ```
-
+  
 - 집합 관련 함수
 
   ```python
