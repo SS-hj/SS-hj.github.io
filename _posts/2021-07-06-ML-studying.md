@@ -8,6 +8,7 @@ tag:
 header:
  teaser: /assets/images/Machine_Learning.png
 
+
 ---
 
 -----
@@ -22,9 +23,9 @@ header:
 
 - Machine Learning? 사람이 만든 기술을 구축하는 기술
 
-<img src = "/assets/images/ML-studying/postfiles8.naver_.png" align="left">    
-<br/>
- 이미지 출처: [https://blogs.nvidia.co.kr](https://blogs.nvidia.co.kr/2016/08/03/difference_ai_learning_machinelearning/)
+<img src = "/assets/images/ML-studying/postfiles8.naver_.png">    
+
+​       이미지 출처: [https://blogs.nvidia.co.kr](https://blogs.nvidia.co.kr/2016/08/03/difference_ai_learning_machinelearning/)
 
 - 이제야 머신러닝/딥러닝이 뜨는 이유? 
 
@@ -44,14 +45,14 @@ header:
 
 - feature에 비해 데이터가 너무 적으면 overfitting 과적합 발생 가능성 증가 (curse of dimensionality; 차원의 저주) (새로운 테스트 데이터에 대해 잘못된 예측을 할 가능성이 커짐)
 
-  <img src = "/assets/images/ML-studying/The-curse-of-dimensionality.png" width="700px" align="left"> 
-<br/>
+  <img src = "/assets/images/ML-studying/The-curse-of-dimensionality.png" width="700px"> 
+
   이미지 출처: [www.researchgate.net](https://www.researchgate.net/figure/The-curse-of-dimensionality-a-11-objects-in-one-unit-bin-b-6-objects-in-one-unit-bin_fig1_264823819)
 
 - 딥러닝은 feature을 자동으로 정의 해준다. => 딥러닝은 어떤 식으로 학습하여 좋은 결과가 나오는지 해석하기가 힘들다. 이러한 현상 때문에, 블랙박스라고도 한다. (반대로 학습과정이 해석되는 것은 화이트박스라고 한다.)
 
-  <img src = "/assets/images/ML-studying/image-20210706214949629.png" width="450px" align="left">   <br/>
-<br/>
+  <img src = "/assets/images/ML-studying/image-20210706214949629.png" width="450px">  
+
   이미지 출처: [https://ichi.pro/ko](https://ichi.pro/ko/haeseog-ganeunghan-meosin-leoning-gaideu-233158916486863)
 
 - 머신러닝에서의 model?
@@ -80,22 +81,22 @@ header:
 
   e.g.) 가우시안, 나이브베이즈
 
-  <img src = "/assets/images/ML-studying/image-20210706214307635.png" align="left">   <br/>
-<br/>
+  <img src = "/assets/images/ML-studying/image-20210706214307635.png">
+
   이미지 출처: [https://stanford.edu](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)
 
 - 머신러닝과 관련된 유명한 말
 
   No Free Lunch: “모든 것에 최선인 알고리즘은 없다”
 
-  <img src = /assets/images/ML-studying/Firmin-fig1-no-free-lunch.jpg width ="390">   <br/>
-<br/>
+  <img src = /assets/images/ML-studying/Firmin-fig1-no-free-lunch.jpg width ="390">
+
   이미지 출처 : [www.kdnuggets.com](https://www.kdnuggets.com/2019/09/no-free-lunch-data-science.html)     
 
   Occam’s Razor: “단순함이 의외로 진리일 수 있다”
 
-  <img src = /assets/images/ML-studying/occam.gif width ="200">   <br/>
-<br/>
+  <img src = /assets/images/ML-studying/occam.gif width ="200">
+
   이미지 출처: [www.chrismadden.co.uk](http://www.chrismadden.co.uk/cartoon-gallery/occams-razor-ockhams-razor-too-complicated/)
 
 - 정성평가: 눈으로 보고 느끼는 결과/성과. 주관적인 평가방식
@@ -110,8 +111,8 @@ header:
 
   Recall(재현율): 실제 정답인 것중 예측도 정답인 비율 (얼마나 잘 재현했는지)
 
-  <img src = "/assets/images/ML-studying/confusion-matrix.png" width="600" align="left">   <br/>
-<br/>
+  <img src = "/assets/images/ML-studying/confusion-matrix.png" width="600">
+
   이미지 출처: [www.researchgate.net](https://www.researchgate.net/figure/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix_fig3_336402347)
 
   > e.g.) 총 10명 중 실제 마피아 2명 일 때, 이 중 4명을 마피아로 예상하였다. 그 4명 중 실제 마피아는 1명 이었다고 하자.
@@ -120,12 +121,12 @@ header:
   >
   > ​      Recall은 1/2 (실제 마피아 중 예측도 마피아였던 비율)
 
-  <img src = "/assets/images/2021-07-06-ML-studying/image-20210706223706455.png" align="left">   <br/>
-<br/>
+  <img src = "/assets/images/2021-07-06-ML-studying/image-20210706223706455.png">
+
   AUC: ROC curve에서 그래프 아래 면적 (값이 클수록 성능이 좋은 것)
 
-  <img src = "/assets/images/ML-studying/img.png" width="350px" align="left">   <br/>
-<br/>
+  <img src = "/assets/images/ML-studying/img.png" width="350px">
+
   이미지 출처: [https://glassboxmedicine.com](https://glassboxmedicine.com/2019/02/23/measuring-performance-auc-auroc/)
 
   > ROC curve는 False Positive Rate(FPR)이 x축이고, True Positive Rate(TPR)이 y축인 그래프
@@ -140,8 +141,8 @@ header:
 
 - Bias: 평균에서 멀어진 것 (e.g., 소방호스의 방향이라고 생각) / Variance: 어떤 예측을 할 때 결과가 다양하게 나오는 것 (e.g., 호스물의 응집도라고 생각)
 
-  <img src = "/assets/images/ML-studying/image-20210706205423963.png" align="left">   <br/>
-<br/>
+  <img src = "/assets/images/ML-studying/image-20210706205423963.png">
+
   (이 Bagging과 Boosting에 대해서는 나중에 머신러닝 핵심 요약 포스팅 시리즈에서 다시 더 자세하게 다룰 예정입니다.)
 
 - 오버피팅이 되면, Bias는 작지만 variance는 커짐
