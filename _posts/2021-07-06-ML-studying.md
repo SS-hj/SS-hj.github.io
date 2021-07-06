@@ -89,13 +89,13 @@ header:
 
   No Free Lunch: “모든 것에 최선인 알고리즘은 없다”
 
-  <img src = /assets/images/ML-studying/Firmin-fig1-no-free-lunch.jpg width ="390">
+  <img src = "/assets/images/ML-studying/Firmin-fig1-no-free-lunch.jpg" width ="390">
 
   이미지 출처 : [www.kdnuggets.com](https://www.kdnuggets.com/2019/09/no-free-lunch-data-science.html)     
 
   Occam’s Razor: “단순함이 의외로 진리일 수 있다”
 
-  <img src = /assets/images/ML-studying/occam.gif width ="200">
+  <img src = "/assets/images/ML-studying/occam.gif" width ="200">
 
   이미지 출처: [www.chrismadden.co.uk](http://www.chrismadden.co.uk/cartoon-gallery/occams-razor-ockhams-razor-too-complicated/)
 
@@ -121,7 +121,7 @@ header:
   >
   > ​      Recall은 1/2 (실제 마피아 중 예측도 마피아였던 비율)
 
-  <img src = "/assets/images/2021-07-06-ML-studying/image-20210706223706455.png">
+  <img src = "/assets/images/ML-studying/image-20210706223706455.png">
 
   AUC: ROC curve에서 그래프 아래 면적 (값이 클수록 성능이 좋은 것)
 
