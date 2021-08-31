@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Hajeong's log"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Iron Man 지망생"
+name                     : "Hajeong Lee"
 description              : #
 url                      : "https://ss-hj.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Iron Man 지망생"
+  name             : "Hajeong Lee"
   avatar           : "/assets/images/ironman.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "디자이너가 되려했던 문과생이 공대생이 되어 data scientist를 꿈꿀 때"
+  bio              : "Iron Man 지망생"
   location         : "Korea"
   email            : "leehajeong22@gmail.com"
   links:
