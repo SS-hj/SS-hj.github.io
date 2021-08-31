@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Hajeong's log"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "AI가 되어가는 Human"
+name                     : "Iron Man 지망생"
 description              : #
 url                      : "https://ss-hj.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -76,7 +76,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/AI.jpg" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/ironman.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "AI가 되어가는 Human"
-  avatar           : "/assets/images/AI.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "분석과 개발 둘 다 잘해내는 Data Scientist를 꿈꾸는 학생"
+  name             : "Iron Man 지망생"
+  avatar           : "/assets/images/ironman.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "디자이너가 되려했던 문과생이 공대생이 되어 data scientist를 꿈꿀 때"
   location         : "Korea"
   email            : "leehajeong22@gmail.com"
   links:
