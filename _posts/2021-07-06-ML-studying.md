@@ -22,6 +22,8 @@ toc_sticky: true
 
 <br/>
 
+----
+
 # Machine Learning 
 
 사람이 만든 기술을 구축하는 기술
@@ -39,6 +41,8 @@ toc_sticky: true
   두번째, GPU를 사용하면서 대용량데이터를 처리할 기술이 생김
 
 <br/>
+
+-----
 
 # feature
 
@@ -73,6 +77,8 @@ feature에 비해 데이터가 너무 적으면 overfitting 과적합 발생 가
 <font style="color:#999999">이미지 출처:</font> [https://ichi.pro/ko](https://ichi.pro/ko/haeseog-ganeunghan-meosin-leoning-gaideu-233158916486863)
 
 <br/>
+
+---
 
 # model
 
@@ -112,7 +118,7 @@ model == method == algorithm == hypothesis (임의의 목적을 달성하기 위
 
 <br/>
 
-## 머신러닝과 관련된 유명한 말
+## 머신러닝 모델 선정과 관련된 유명한 말
 
 No Free Lunch: “모든 것에 최선인 알고리즘은 없다”
 
@@ -129,6 +135,8 @@ Occam’s Razor: “단순함이 의외로 진리일 수 있다”
 <font style="color:#999999">이미지 출처:</font> [www.chrismadden.co.uk](http://www.chrismadden.co.uk/cartoon-gallery/occams-razor-ockhams-razor-too-complicated/)
 
 <br/>
+
+---
 
 # 모델 평가
 
@@ -203,6 +211,8 @@ test data가 Bias가 커서 과소적합(언더피팅)됐다면? 모델 복잡�
 
 <br/>
 
+----
+
 # Model Training
 
 머신러닝에서의 학습이란 모델이 가진 **파라미터를 최적화**(최소화 or 최대화)하는 것이다.
@@ -220,4 +230,8 @@ test data가 Bias가 커서 과소적합(언더피팅)됐다면? 모델 복잡�
 <br/>
 
 <br/>
+
+---
+
+
 
