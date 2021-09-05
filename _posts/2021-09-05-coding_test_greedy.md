@@ -40,8 +40,6 @@ header:
 
 <br/>
 
-<파이썬 답안 예시>
-
 ```python
 n = 1260
 count = 0
