@@ -7,8 +7,6 @@ tag:
 - Machine Learning
 header:
  teaser: /assets/images/Machine_Learning.png
-
-
 ---
 
 -----
@@ -25,7 +23,9 @@ header:
 
 <img src = "/assets/images/ML-studying/postfiles8.naver_.png">    
 
-​       이미지 출처: [https://blogs.nvidia.co.kr](https://blogs.nvidia.co.kr/2016/08/03/difference_ai_learning_machinelearning/)
+​       <font style="color:#999999">이미지 출처:</font> [https://blogs.nvidia.co.kr](https://blogs.nvidia.co.kr/2016/08/03/difference_ai_learning_machinelearning/)
+
+<br/>
 
 - 이제야 머신러닝/딥러닝이 뜨는 이유? 
 
@@ -33,31 +33,45 @@ header:
 
   두번째, GPU를 사용하면서 대용량데이터를 처리할 기술이 생김
 
+  <br/>
+
 - 머신러닝에서의 feature?
 
   feature == attribute == 열 == 차원  (즉, feature을 늘린다 == 차원을 늘린다.)
 
+  <br/>
+
 - 일반적으로 label 개수 (= class 개수) < feature 개수 < Data 개수 이다.
+
+  <br/>
 
 - feature 선택은 매우 중요하다. feature에 대한 도메인 지식(전문지식)이 요구된다 
 
   e.g.) 일본어 문장에 대한 감정 분석시, 일본어에 대한 전문지식이 요구됨
 
+  <br/>
+
 - feature에 비해 데이터가 너무 적으면 overfitting 과적합 발생 가능성 증가 (curse of dimensionality; 차원의 저주) (새로운 테스트 데이터에 대해 잘못된 예측을 할 가능성이 커짐)
 
   <img src = "/assets/images/ML-studying/The-curse-of-dimensionality.png" width="700px"> 
 
-  이미지 출처: [www.researchgate.net](https://www.researchgate.net/figure/The-curse-of-dimensionality-a-11-objects-in-one-unit-bin-b-6-objects-in-one-unit-bin_fig1_264823819)
+  <font style="color:#999999">이미지 출처:</font> [www.researchgate.net](https://www.researchgate.net/figure/The-curse-of-dimensionality-a-11-objects-in-one-unit-bin-b-6-objects-in-one-unit-bin_fig1_264823819)
+
+  <br/>
 
 - 딥러닝은 feature을 자동으로 정의 해준다. => 딥러닝은 어떤 식으로 학습하여 좋은 결과가 나오는지 해석하기가 힘들다. 이러한 현상 때문에, 블랙박스라고도 한다. (반대로 학습과정이 해석되는 것은 화이트박스라고 한다.)
 
   <img src = "/assets/images/ML-studying/image-20210706214949629.png" width="450px">  
 
-  이미지 출처: [https://ichi.pro/ko](https://ichi.pro/ko/haeseog-ganeunghan-meosin-leoning-gaideu-233158916486863)
+  <font style="color:#999999">이미지 출처:</font> [https://ichi.pro/ko](https://ichi.pro/ko/haeseog-ganeunghan-meosin-leoning-gaideu-233158916486863)
+
+  <br/>
 
 - 머신러닝에서의 model?
 
   model == method == algorithm == hypothesis (임의의 목적을 달성하기 위한 hypothesis)
+
+  <br/>
 
 - computational complexity(계산복잡도)는 낮을수록, data sample complexity는 높을수록 좋음
 
@@ -65,11 +79,15 @@ header:
 
   data sample complexity: 데이터가 증가할 때 정답의 품질이 얼마나 증가하는가
 
+  <br/>
+
 - 비지도학습은 parametric, Non-parametric으로 나눌 수 있다.
 
   parametric: 데이터가 어떤 분포로부터 생성된건지 임의로 가정. 즉, 모델을 가정하여 파라미터를 통해 문제에 접근하는 경우
 
   Non-parametric: 어떤 분포인지 가정이 없고, 파라미터 개수가 변하기도 한다.  e.g.) KNN 알고리즘, Decision Tree 등
+
+  <br/>
 
 - Discriminative model와 Generative model
 
@@ -83,25 +101,33 @@ header:
 
   <img src = "/assets/images/ML-studying/image-20210706214307635.png">
 
-  이미지 출처: [https://stanford.edu](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)
+  <font style="color:#999999">이미지 출처: </font>[https://stanford.edu](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)
+
+  <br/>
 
 - 머신러닝과 관련된 유명한 말
 
   No Free Lunch: “모든 것에 최선인 알고리즘은 없다”
 
-  <img src = "/assets/images/ML-studying/Firmin-fig1-no-free-lunch.jpg" width ="390">
+  <img src = /assets/images/ML-studying/Firmin-fig1-no-free-lunch.jpg width ="390">
 
-  이미지 출처 : [www.kdnuggets.com](https://www.kdnuggets.com/2019/09/no-free-lunch-data-science.html)     
+  <font style="color:#999999">이미지 출처 :</font> [www.kdnuggets.com](https://www.kdnuggets.com/2019/09/no-free-lunch-data-science.html)     
+
+  <br/>
 
   Occam’s Razor: “단순함이 의외로 진리일 수 있다”
 
-  <img src = "/assets/images/ML-studying/occam.gif" width ="200">
+  <img src = /assets/images/ML-studying/occam.gif width ="200">
 
-  이미지 출처: [www.chrismadden.co.uk](http://www.chrismadden.co.uk/cartoon-gallery/occams-razor-ockhams-razor-too-complicated/)
+  <font style="color:#999999">이미지 출처:</font> [www.chrismadden.co.uk](http://www.chrismadden.co.uk/cartoon-gallery/occams-razor-ockhams-razor-too-complicated/)
+
+  <br/>
 
 - 정성평가: 눈으로 보고 느끼는 결과/성과. 주관적인 평가방식
 
   정량평가: 정답과 비교해서 성능 수치를 비교. 객관적인 평가방식
+
+  <br/>
 
 - 기계학습에서의 정량평가 방법들
 
@@ -113,7 +139,9 @@ header:
 
   <img src = "/assets/images/ML-studying/confusion-matrix.png" width="600">
 
-  이미지 출처: [www.researchgate.net](https://www.researchgate.net/figure/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix_fig3_336402347)
+  <font style="color:#999999">이미지 출처:</font> [www.researchgate.net](https://www.researchgate.net/figure/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix_fig3_336402347)
+
+  <br/>
 
   > e.g.) 총 10명 중 실제 마피아 2명 일 때, 이 중 4명을 마피아로 예상하였다. 그 4명 중 실제 마피아는 1명 이었다고 하자.
   >
@@ -127,7 +155,9 @@ header:
 
   <img src = "/assets/images/ML-studying/img.png" width="350px">
 
-  이미지 출처: [https://glassboxmedicine.com](https://glassboxmedicine.com/2019/02/23/measuring-performance-auc-auroc/)
+  <font style="color:#999999">이미지 출처:</font> [https://glassboxmedicine.com](https://glassboxmedicine.com/2019/02/23/measuring-performance-auc-auroc/)
+
+  <br/>
 
   > ROC curve는 False Positive Rate(FPR)이 x축이고, True Positive Rate(TPR)이 y축인 그래프
   >
@@ -135,9 +165,13 @@ header:
   >
   > True Positive Rate(TPR): 실제 postive 중에서 알고리즘 예측값도 postive인 것 (= Sensitivity = Recall)
 
+  <br/>
+
 - Validation? 연습용 테스트 데이터 (트레이닝 데이터에서 떼어내어 마치 테스트 데이터인 양 쓰는 것) => 이를 이용하여 test accuracy를 가늠. 
 
   따라서 좋은 성능을 내는지 확인 후, 실제 새로운 데이터에 대해 모델 사용 가능
+
+  <br/>
 
 - Bias: 평균에서 멀어진 것 (e.g., 소방호스의 방향이라고 생각) / Variance: 어떤 예측을 할 때 결과가 다양하게 나오는 것 (e.g., 호스물의 응집도라고 생각)
 
@@ -145,15 +179,25 @@ header:
 
   (이 Bagging과 Boosting에 대해서는 나중에 머신러닝 핵심 요약 포스팅 시리즈에서 다시 더 자세하게 다룰 예정입니다.)
 
+  <br/>
+
 - 오버피팅이 되면, Bias는 작지만 variance는 커짐
+
+  <br/>
 
 - test data가 Variance가 커서 과적합(오버피팅)됐다면? 
 
   1. 데이터 수 늘리기  2. 모델 경량화
 
+     <br/>
+
 - test data가 Bias가 커서 과소적합(언더피팅)됐다면? 모델 복잡도 높이기
 
+  <br/>
+
 - 머신러닝에서의 학습이란? 모델이 가진 **파라미터를 최적화**(최소화 or 최대화)하는 것
+
+  <br/>
 
 - 파라미터를 최적화하기 위한 함수들 정리
 
@@ -162,4 +206,8 @@ header:
   > **Cost function**: <font style="color:#cc3333">Loss를 총 데이터에 대해 평균</font> 낸 것
   >
   > **Objective function**: 가장 일반화된 용어. 학습을 통해 <font style="color:#cc3333">최적화하려는 모든 종류의 함수</font>
+  
+  <br/>
+  
+  <br/>
 
