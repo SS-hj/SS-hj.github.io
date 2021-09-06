@@ -21,13 +21,11 @@ header:
 
 ----
 
-<font style="color:#6666ff">**의사결정 트리(DECISION TREE)는 무언가를 결정할 수 있는 기준들을 학습**하는 것이다.</font>
+**의사결정 트리(DECISION TREE)는 무언가를 결정할 수 있는 기준들을 학습하는 것이다.**
 
 <img src = "/assets/images/2021-09-06-ML-studying/2-22.png" width="400px"> 
 
-<font style="color:#999999">이미지 출처:</font> [https://tensorflow.blog](https://tensorflow.blog/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/2-3-5-%EA%B2%B0%EC%A0%95-%ED%8A%B8%EB%A6%AC/)
-
-<br/>
+<font style="color:#999999">이미지 출처:[https://tensorflow.blog](https://tensorflow.blog/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/2-3-5-%EA%B2%B0%EC%A0%95-%ED%8A%B8%EB%A6%AC/)</font> 
 
 **좋은 트리의 기준**
 
@@ -54,18 +52,16 @@ header:
 
 <img src = "/assets/images/2021-09-06-ML-studying/heIgkif.png" width="200px">
 
-<font style="color:#999999">이미지 출처:</font> [https://ratsgo.github.io](https://ratsgo.github.io/machine%20learning/2017/03/26/tree/)
-
-<br/>
+<font style="color:#999999">이미지 출처: [https://ratsgo.github.io](https://ratsgo.github.io/machine%20learning/2017/03/26/tree/)</font> 
 
 - **Purity** : 한 쪽 데이터만 존재할수록, 더 깨끗하다.
 
 - **Entropy** : 무질서도. Purity의 반대개념 (Impurity)
 
   A영역에 대해 K 범주에 속하는 데이터들의 entropy는 다음과 같이 계산된다.
-  $$
-  Entropy(A)=−∑_{k=1}^{m}p_{k}log_{2}(p_{k})
-  $$
+  
+  <img src = "/assets/images/2021-09-06-ML-studying/image-20210906135300489.png" width="270px">
+  
   (이때 P<sub>k</sub> 는 A영역에 속하는 데이터들 중 K 범주에 속하는 데이터들의 비율이다.)
 
   
@@ -112,11 +108,7 @@ header:
 
   이유 2) 중간에서 feature을 하나 잘못 선택하면 뒤에서 너무 과적합이 되려는 경향이 있다.
 
-<br/>
-
 - 의사결정나무는 normalizaion(정규화)할 필요가 없다. 정규화를 하여도 수치만 바뀔 뿐, 분류 기준은 바뀌지 않는다.
-
-<br/>
 
 - 의사결정나무는 비선형문제인 XOR과 같은 문제를 해결하기 어렵다.
 
