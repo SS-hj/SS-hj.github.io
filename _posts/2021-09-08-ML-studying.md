@@ -40,9 +40,9 @@ use_math: true
 베이즈 정리를 이용하여 분류에 활용한 것이다.
 
 테스트 데이터 x가 있을 때, 이 x가  어떤 class인지 구하기 위해서는 다음과 같은 식을 이용하면 된다.
-$$
-P(class|x) = P(x|class)P(class) /P(x)
-$$
+
+$P(class|x) = P(x|class)P(class) /P(x)$
+
 위 식을 각 class 별로 구하여 테스트 데이터 x가 해당 class일 확률을 계산한 후, 가장 큰 확률을 지닌 class를 택하는 것이다. 
 
 이때 분모의 <font style="color:#6666ff">P(x)는 모든 class에 대하여 전부 동일하므로, 생략할 수 있다.</font>
@@ -50,9 +50,9 @@ $$
 <br/>
 
 만약 데이터의 feature가 2개라고 가정한다면, 실제로 각 class에 대해 비교하게 될 최종 식은 다음과 같이 정리될 수 있다.
-$$
-P(class_{i}|x) = P(feature 1\cap featur e2|class_{i})P(class_{i})
-$$
+
+$P(class_{i}|x) = P(feature 1\cap featur e2|class_{i})P(class_{i})$
+
 <font style="color:#cc3333">그러나, 데이터 x의 feature들의 교집합이 train data에 존재하지 않았으면, 이에 대한 확률은 0이 되어버린다.</font>
 
 <br/>
@@ -68,9 +68,9 @@ Naive bayes에서 Naive는 확률을 독립으로 가정한다는 의미이다.
 <br/>
 
 만약 데이터의 feature가 2개라고 가정한다면, 실제로 각 class에 대해 비교하게 될 최종 식은 다음과 같이 정리될 수 있다.
-$$
-P(class_{i}|x) = P(feature 1|class_{i})P(feature 2|class_{i})P(class_{i})
-$$
+
+$P(class_{i}|x) = P(feature 1|class_{i})P(feature 2|class_{i})P(class_{i})$
+
 <font style="color:#cc3333">그러나, 아예 관측되지 않은 feature값이 들어오게 된다면 이에 대한 확률은 다시 0이 된다.</font>
 
 <br/>
@@ -84,9 +84,9 @@ $$
 <br/>
 
 만약 데이터의 feature가 2개라고 가정한다면, 실제로 각 class에 대해 비교하게 될 최종 식은 다음과 같이 정리될 수 있다.
-$$
-P(class_{i}|x) = N(feature 1;u_{1i},σ_{1i})N(feature 2|u_{2i},σ_{2i})P(class_{i})
-$$
+
+$P(class_{i}|x) = N(feature 1;u_{1i},σ_{1i})N(feature 2|u_{2i},σ_{2i})P(class_{i})$
+
 이때 u<sub>ki</sub>와 σ<sub>ki</sub>는 각각 k번째 feature의 i class에 대한 평균과 분산을 의미한다. 즉, N(feature 1;u<sub>1i</sub>,σ<sub>1i</sub>)는 새로운 데이터 x의 feature1에 대한 첫 번째 feature들의 가우시안 분포에 따른 값을 의미한다.
 
 <font style="color:#cc3333">그러나 이 모델은 XOR문제를 풀지 못한다는 한계가 있다.</font>
