@@ -12,7 +12,7 @@ header:
 toc_label: "목차"
 toc: true
 toc_sticky: true
-use_math: true
+mathjax: true
 ---
 
 -----
